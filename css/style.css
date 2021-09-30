@@ -285,8 +285,11 @@ ul {
 .project-card:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-
+.desc-proj {
+  padding: 20px 24px;
+}
 .project-name {
+  margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 18px;
