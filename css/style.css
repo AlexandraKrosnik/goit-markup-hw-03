@@ -238,8 +238,19 @@ ul {
 /*----------------------------------------------------------------------*/
 /* portfolio.html */
 
+/* Header */
+.port-header {
+  border-bottom: 1px solid #ececec;
+}
 /* radio button */
-
+.filter-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter-li:not(:last-child) {
+  margin-right: 8px;
+}
 .radio-button {
   background-color: #f5f4fa;
   color: var(--title-text-color);
@@ -260,6 +271,21 @@ ul {
 }
 
 /* main portfolio content */
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  border: 1px solid #eeeeee;
+}
+.project-card:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+.project-card:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
 .project-name {
   color: var(--title-text-color);
   font-weight: bold;
