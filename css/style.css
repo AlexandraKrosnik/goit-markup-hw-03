@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --second-bg-color: #f5f4fa;
+  --logo-black: #000000;
+  --hero-bg: #2f303a;
 }
 body {
   background-color: var(--primary-white-color);
@@ -55,7 +57,7 @@ ul {
   text-decoration: none;
 }
 .logo-black {
-  color: #000000;
+  color: var(--logo-black);
 }
 .logo-white {
   color: var(--primary-white-color);
